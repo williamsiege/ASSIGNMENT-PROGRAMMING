@@ -21,6 +21,7 @@ int main() {
 
     // Determine the maximum number using switch-case
     switch (num1 > num2) {
+        // first switch case to decide which number is greater.
         case true:
             choice = '1';
             break;
@@ -30,6 +31,7 @@ int main() {
     }
 
     switch (choice) {
+        // Second switch case to output the greater btw the two given.
         case '1':
             cout << "The maximum number is: " << num1 <<endl;
             break;
@@ -42,3 +44,4 @@ int main() {
 
     return 0;
 }
+// code tested and debugged.
