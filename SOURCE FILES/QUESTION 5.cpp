@@ -1,6 +1,7 @@
 // A calculation Program for areas of circle, rectangle, triangle.
 #include <iostream>
-#include <cmath>  /*The C++ <cmath> header file declares the library that holds a set of functions to perform
+#include <cmath>
+ /*The C++ <cmath> header file declares the library that holds a set of functions to perform
  mathematical operations such as: sqrt() to calculate 
  the square root, log() to find natural logarithm of a number etc.*/
 
