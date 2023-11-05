@@ -24,16 +24,17 @@ cin >> score;
 // Determine the grade based on the score
 // introducing variable grade 
     char grade;
+    string remark;
     if (score>=70) {                                  /* If else - if conditions for the grading */
-        grade = 'A';
+        grade = 'A', remark = "Excellent WORK";
     } else if (score>=60 && score<=69) {
-        grade = 'B';
+        grade = 'B', remark = "Nice";
     } else if (score>=50 && score<=59) {
-        grade = 'C';
+        grade = 'C', remark = "Try Better";
     } else if (score>=40 && score<=49){
-        grade = 'D';
+        grade = 'D', remark = "Try HARDER";
     } else if (score<40 ){
-        grade = 'F';
+        grade = 'F', remark = "Wake up";
     } else {
         cout << "Invalid Score entered "<<endl;
     }
@@ -43,6 +44,7 @@ cout << " Studnets's FullName: " << fullName<<endl;
 cout << "Course taken: " << course<<endl;
 cout << "Score: " << score<<endl;
 cout << "Grade: " << grade<<endl;
+cout << "Remark :"<< remark<<endl;
 
 return 0;
 
