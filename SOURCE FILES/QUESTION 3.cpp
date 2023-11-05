@@ -22,13 +22,13 @@ cout << "Enter the student's score: "; // Score of the Student
 cin >> score;
 
 // Determine the grade based on the score using Switch-case
-// introducing variable grade 
+// introducing variable grade to use in the switch case.
 
 char grade;
 switch(score/10){
     case 8:
        grade = 'A';
-       break;
+       break; //directs Compiler to stop execution and jump to the next case
     case 7:
        grade = 'A';
        break;
