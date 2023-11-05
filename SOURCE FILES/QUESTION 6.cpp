@@ -26,7 +26,7 @@ int main() {
         // Display the traffic light using a switch-case statement
         for (int i = 0; i < 3; ++i) { 
             /*When you know exactly how many times you want to loop 
-            through a block of code, using the for loop is needed.*/
+            through a block of code, using the for loop is needed. FOR the traffic lights it loops infinitely.*/
             switch (i) {
                 case 0:
                     cout << "RED LIGHT" << std::endl;
