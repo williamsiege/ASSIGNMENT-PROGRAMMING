@@ -29,15 +29,15 @@ int main() {
             through a block of code, use the for loop is needed.*/
             switch (i) {
                 case 0:
-                    cout << "RED" << std::endl;
+                    cout << "RED LIGHT" << std::endl;
                     this_thread::sleep_for(chrono::seconds(5));
                     break;
                 case 1:
-                    cout << "YELLOW" << std::endl;
+                    cout << "YELLOW LIGHT" << std::endl;
                     this_thread::sleep_for(chrono::seconds(2));
                     break;
                 case 2:
-                    cout<< "GREEN" << std::endl;
+                    cout<< "GREEN LIGHT" << std::endl;
                     this_thread::sleep_for(chrono::seconds(5));
                     break;
             }
