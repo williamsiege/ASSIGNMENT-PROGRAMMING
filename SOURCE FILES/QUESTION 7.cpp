@@ -20,6 +20,7 @@ int main() {
     double fineAmount = 000.0;
 
     if (bookType == "regular") {
+        // Stating book types regular, children's or reference.
         if (daysLate <= 7) {
             fineAmount = 5.0 * daysLate;
         } else {
