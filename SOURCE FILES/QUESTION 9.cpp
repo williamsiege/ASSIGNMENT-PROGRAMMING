@@ -32,7 +32,7 @@ int main() {
         } else if (movieType == "3D") {
             ticketPrice = 450.0;  // Kids (under 13) pay ksh450 for 3D movies
         } else {
-            cout << "Invalid movie type. Please enter 'regular' or '3D'." << std::endl;
+            cout << "Invalid movie type. Please enter 'regular' or '3D'." <<endl;
             return 1;
         }
     } else {
@@ -41,7 +41,7 @@ int main() {
         } else if (movieType == "3D") {
             ticketPrice = 750.0; // Adults (13 and older) pay ksh750 for 3D movies
         } else {
-            cout << "Invalid movie type. Please enter 'regular' or '3D'." << std::endl;
+            cout << "Invalid movie type. Please enter 'regular' or '3D'." <<endl;
             return 1;
         }
     }

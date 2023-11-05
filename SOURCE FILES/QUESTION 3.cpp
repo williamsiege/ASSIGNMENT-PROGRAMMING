@@ -27,6 +27,8 @@ cin >> score;
 char grade;
 string remark; // giving remarks on each grade.
 
+// Grading using switch case function.
+
 switch(score/10){
     case 8:
        grade = 'A', remark = "Excellent WORK";

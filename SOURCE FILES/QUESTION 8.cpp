@@ -25,7 +25,7 @@ int main() {
     }
 
     // Display the total cost after applying the discount
-    cout << "Total cost after applying discount: $" << totalCost <<endl;
+    cout << "Total cost after applying discount: kSH" << totalCost <<endl;
 
     return 0;
 }
