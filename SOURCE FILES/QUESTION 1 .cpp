@@ -16,7 +16,7 @@ double bankBalance;
 cout << "Enter your age: ";// Age
 cin >> age;
 
-cout << "Enter your bank balance: ";//BankBalance
+cout << "Enter your bank balance Ksh: ";//BankBalance
 cin >> bankBalance;
 
 cout << "Enter your CRB status (Good/Bad): ";//CRB status
@@ -32,7 +32,7 @@ if(age>=22 && bankBalance>=50000 && crbStatus=="Good" && goodCustomer>6){
 cout << "Congratulations! You qualify for a loan."<<endl;
 cout << "*********Details Captured*******\n\n";
 cout << "Your Age is "<<age<<endl;
-cout << "Bank Balance is :"<<bankBalance<<endl;
+cout << "Bank Balance is Ksh :"<<bankBalance<<endl;
 cout << "CRB status is :"<<crbStatus<<endl;
 cout << "Has been a Customer for :"<<goodCustomer<<" Months"<<endl;
 }else
@@ -40,7 +40,7 @@ cout << "Has been a Customer for :"<<goodCustomer<<" Months"<<endl;
 cout << "Sorry, you do not qualify for a loan based on the given conditions."<<endl;
 cout << "*********Details Captured*******\n\n";
 cout << "Your Age is "<<age<<endl;
-cout << "Bank Balance is :"<<bankBalance<<endl;
+cout << "Bank Balance is Ksh :"<<bankBalance<<endl;
 cout << "CRB status is :"<<crbStatus<<endl;
 cout << "Has been a Customer for :"<<goodCustomer<<" Months"<<endl;
 

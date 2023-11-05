@@ -30,7 +30,7 @@ int main() {
             switch (i) {
                 case 0:
                     cout << "RED LIGHT" << std::endl;
-                    this_thread::sleep_for(chrono::seconds(5)); //seconds(X):number of seconds to pass.
+                    this_thread::sleep_for(chrono::seconds(5)); //seconds(X):number of seconds to pass then pass it to the next case.
                     break;
                 case 1:
                     cout << "YELLOW LIGHT" << std::endl;
