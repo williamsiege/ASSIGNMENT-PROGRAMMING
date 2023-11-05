@@ -1,5 +1,5 @@
 /*Creating  a simple C++ application to check 
-if a customer is qualified for a loan using certain conditions*/
+if a customer is qualified for a loan using certain conditions GIVEN!!*/
 #include <iostream>
 #include <string>
 
