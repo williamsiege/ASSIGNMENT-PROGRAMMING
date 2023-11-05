@@ -1,5 +1,5 @@
 /*Creating a simple 
-Grading System using C++*/
+Grading System using C++ but this time using switch case*/
 #include<iostream>
 #include<string>
 
@@ -21,22 +21,33 @@ getline(cin, course);
 cout << "Enter the student's score: "; // Score of the Student
 cin >> score;
 
-// Determine the grade based on the score
+// Determine the grade based on the score using Switch-case
 // introducing variable grade 
-    char grade;
-    if (score>=70) {                                  /* If else - if conditions for the grading */
-        grade = 'A';
-    } else if (score>=60 && score<=69) {
-        grade = 'B';
-    } else if (score>=50 && score<=59) {
-        grade = 'C';
-    } else if (score>=40 && score<=49){
-        grade = 'D';
-    } else if (score<40 ){
-        grade = 'F';
-    } else {
-        cout << "Invalid Score entered "<<endl;
-    }
+
+char grade;
+switch(score/10){
+    case 8:
+       grade = 'A';
+       break;
+    case 7:
+       grade = 'A';
+       break;
+    case 6:
+       grade = 'B';
+       break;
+    case 5:
+       grade = 'C';
+       break;
+    case 4:
+       grade = 'D';
+       break;
+    case 3:
+       grade = 'F';
+       break;
+    default:
+    cout << "Invalid Score entered"<<endl;
+
+}
 // Output the student's information and grade
 cout << "\n**********Student Information********:"<<endl;
 cout << " Studnets's FullName: " << fullName<<endl;
