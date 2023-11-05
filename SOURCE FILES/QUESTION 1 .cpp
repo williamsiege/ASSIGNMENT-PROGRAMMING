@@ -26,7 +26,7 @@ cout << "Enter the number of months you've been a customer: "; // Months of bein
 cin >> goodCustomer;
 cout <<"\n\n";
 
-// checking the eligibilty for a loan
+// checking the eligibilty for a loan And giving different outputs.
 
 if(age>=22 && bankBalance>=50000 && crbStatus=="Good" && goodCustomer>6){
 cout << "Congratulations! You qualify for a loan."<<endl;
