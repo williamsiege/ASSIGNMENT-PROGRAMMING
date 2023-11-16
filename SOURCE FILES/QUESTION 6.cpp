@@ -29,15 +29,15 @@ int main() {
             through a block of code, using the for loop is needed. FOR the traffic lights it loops infinitely.*/
             switch (i) {
                 case 0:
-                    cout << "RED LIGHT" << std::endl;
+                    cout << "RED LIGHT" <<endl;
                     this_thread::sleep_for(chrono::seconds(5)); //seconds(X):number of seconds to pass then pass it to the next case.
                     break;
                 case 1:
-                    cout << "YELLOW LIGHT" << std::endl;
+                    cout << "YELLOW LIGHT" <<endl;
                     this_thread::sleep_for(chrono::seconds(2));
                     break;
                 case 2:
-                    cout<< "GREEN LIGHT" << std::endl;
+                    cout<< "GREEN LIGHT" <<endl;
                     this_thread::sleep_for(chrono::seconds(5));
                     break;
             }
